@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jagadish Naik | Developer Portfolio</title>
+  <meta name="description" content="Portfolio showcasing software development, data science, and AI projects by Jagadish Naik.">
+  <style>
+    :root { color-scheme: light; --ink: #172033; --muted: #586174; --accent: #3157d5; --line: #e2e7f0; --surface: #f6f8fc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, sans-serif; color: var(--ink); background: white; }
+    header { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .wrap { width: min(100% - 2rem, 960px); margin: auto; }
+    .hero { padding: 4rem 0 3rem; }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; margin: .6rem 0 1rem; }
+    h2 { margin-top: 0; }
+    .intro { max-width: 680px; color: var(--muted); font-size: 1.15rem; }
+    .links { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.5rem; }
+    a { color: var(--accent); }
+    .button { display: inline-block; padding: .7rem 1rem; border: 1px solid var(--accent); border-radius: .7rem; text-decoration: none; font-weight: 650; }
+    .button.primary { background: var(--accent); color: white; }
+    main { padding: 2.5rem 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+    .card { padding: 1.2rem; border: 1px solid var(--line); border-radius: 1rem; background: white; }
+    .card p { color: var(--muted); }
+    .tag { display: inline-block; font-size: .8rem; background: var(--surface); padding: .2rem .55rem; border-radius: 99px; margin: .15rem .15rem 0 0; }
+    footer { border-top: 1px solid var(--line); padding: 1.5rem 0; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <div class="eyebrow">Software Developer · Data Science</div>
+      <h1>Hi, I'm Jagadish Naik.</h1>
+      <p class="intro">I build practical software solutions and explore machine learning, automation, and data-driven applications. This page highlights selected projects and the technologies I work with.</p>
+      <div class="links">
+        <a class="button primary" href="https://github.com/23f3004085">GitHub profile</a>
+        <a class="button" href="https://jagadishnaik.tech">Portfolio</a>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Agri Aid</h3>
+          <p>A crop recommendation project using machine learning to turn agricultural input data into useful recommendations.</p>
+          <span class="tag">Python</span><span class="tag">Machine Learning</span>
+        </article>
+        <article class="card">
+          <h3>ProjectSphere</h3>
+          <p>A university project management application with role-based dashboards for students, professors, department heads, and directors.</p>
+          <span class="tag">Flask</span><span class="tag">SQLAlchemy</span><span class="tag">SQLite</span>
+        </article>
+        <article class="card">
+          <h3>ParkEase</h3>
+          <p>A smart parking reservation app supporting spot discovery, booking, release, and parking-cost calculation.</p>
+          <span class="tag">Python</span><span class="tag">Web Development</span>
+        </article>
+        <article class="card">
+          <h3>AI & Automation</h3>
+          <p>Workflow automation experiments connecting forms, spreadsheets, email, messaging, and AI-powered tools.</p>
+          <span class="tag">Automation</span><span class="tag">APIs</span>
+        </article>
+      </div>
+    </section>
+    <section style="margin-top:2.5rem" aria-labelledby="skills-title">
+      <h2 id="skills-title">Areas of interest</h2>
+      <p>Software engineering · Python · APIs · Data Science · Machine Learning · Full-stack development · Workflow automation</p>
+    </section>
+    <section style="margin-top:2.5rem" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>For academic and project-related communication, email me at:
+        <!--email_off-->23f3004085@ds.study.iitm.ac.in<!--/email_off-->
+      </p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">© 2026 Jagadish Naik · Built with HTML and CSS · Hosted with GitHub Pages</div>
+  </footer>
+</body>
+</html>
